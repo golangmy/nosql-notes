@@ -30,6 +30,19 @@ db.[table].insert({
 ```
 Insert data to collection   
 
+```
+db.[table].update({
+        name : "Mg Mg Gyi"
+        },
+        { $set : {
+                name: 'ford'
+                }
+         })
+ ```   
+Update name = 'ford' where name = "Mg Mg Gyi"   
+
+
+
 
 
 
