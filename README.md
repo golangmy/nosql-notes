@@ -9,6 +9,7 @@ To show all database<br/>
 Swich to dbname<br/>
 ```>show collections```<br/>
 Show collection(table)<br/>
+# GetAll
 ```>db.[table].find()```<br/>
 Show all data in collection<br/>
 ```
@@ -19,6 +20,7 @@ Show all data in collection<br/>
 }
 ```   
 Show all data in collection with json format<br/>
+# Insert
 ```>db.createCollection('[collectionName]')```<br/>
 Create Collection<br/>
 ```>db.[table].insert({json})```   
@@ -29,7 +31,7 @@ db.[table].insert({
 })
 ```
 Insert data to collection   
-
+# Update
 ```
 db.[table].update({
         name : "Mg Mg Gyi"
