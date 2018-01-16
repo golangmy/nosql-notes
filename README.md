@@ -22,6 +22,12 @@ Show all data in collection with json format<br/>
 ```>db.createCollection('[collectionName]')```<br/>
 Create Collection<br/>
 ```>db.[table].insert({json})```   
+```
+db.[table].insert({
+        "name": "Mg Mg Gyi",
+        "age" : "23"
+})
+```
 Insert data to collection   
 
 
